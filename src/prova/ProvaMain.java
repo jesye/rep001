@@ -23,5 +23,7 @@ public class ProvaMain {
 
 	
 	}
-
+private void doSomething() {
+	
+}
 }
