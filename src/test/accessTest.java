@@ -8,15 +8,25 @@ import prova.Prova;
 
 class accessTest {
 
+	Prova a = new Prova();
+	
 	@Test
 	void test() {
 		
-		Prova a = new Prova();
+		
 		
 		a.incremento();
 		
-	
-		
 	}
 
+	
+	@Test
+	void test2() {
+	a.msg();
+		
+		
+	}
+	
+	
+	
 }
